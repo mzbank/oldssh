@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+		"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+		"http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+    <constant name="struts.devMode" value="false" />
+	<package name="glod" namespace="/" extends="struts-default">
+		<action name="men" class="com.ccv.mzbank.action.GlodAction" method="glod">
+			<result>index.html</result>
+		</action>
+		<action name="women" class="com.ccv.mzbank.action.GzfSqbAction" method="saveGzfSqb">
+			<!-- <result>index.html</result> -->
+		</action>
+	</package>
+</struts>

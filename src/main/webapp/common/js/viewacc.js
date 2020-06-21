@@ -1,0 +1,3 @@
+$("#view").click(function(){
+	alert("");
+});

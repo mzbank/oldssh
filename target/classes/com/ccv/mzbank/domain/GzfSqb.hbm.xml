@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2020-6-14 21:56:59 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.ccv.mzbank.domain.GzfSqb" table="GZFSQB">
+        <id name="businessId" type="java.lang.String">
+            <column name="business_id" />
+            <generator class="assigned" />
+        </id>
+        <property name="IDcardNum" type="java.lang.String">
+            <column name="IDcardNum" />
+        </property>
+        <property name="username" type="java.lang.String">
+            <column name="username" />
+        </property>
+        <property name="tel" type="java.lang.String">
+            <column name="tel" />
+        </property>
+        <property name="address" type="java.lang.String">
+            <column name="address" />
+        </property>
+        <property name="startDate" type="java.util.Date">
+            <column name="start_date" />
+        </property>
+    </class>
+</hibernate-mapping>
